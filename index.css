@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+.fundo-diagonal {
+    max-width: 100%;
+    margin: 0;
+    width: 300%;
+    height: 425px;
+    background-image: url("Fundo8.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-image: linear-gradient(#2FAFA9, #0c423f); */
+    background-position: center;
+    transform: skew(0deg, +10deg) translateY(-150px);
+}
+.nomeProjeto {
+    transform: skew(0deg, -10deg) translateY(+200px);
+    font-size: 20pt;
+    color: #FDFDFD;
+    padding-left: 100px;
+    font-family: "Indie Flower";
+    font-weight: bold;
+}
+.Site {
+    transform: skew(0deg, -10deg) translateY(+200px);
+    padding-right: 100px;
+    padding-top: 40px;
+}
+.SiteR{
+    float: right;
+    font-size: 30pt;
+    text-decoration: none;
+    color: #FDFDFD;
+    font-family: "Indie Flower";
+    font-weight: bold;
+}
+.SiteR:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 32pt;
+}
+.mensagem-acesso {
+    color: #2FAFA9;
+    text-shadow: 1px 1px 2px black;
+    font-weight: bold;
+    padding-left: 100px;
+    font-family: "Indie Flower";
+    font-size: 30pt;
+    margin-top: -90px;
+}
+/* .imagemBrasao {
+    width: 200px;
+    height: 150px;
+    transform: skew(0deg, 10deg) translateY(100px);
+}
+*/
+.fundo {
+    background-color: 	white;
+}
+.icones a i {
+    padding-left: 10px;
+    padding-right: 10px;
+}
